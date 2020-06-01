@@ -1,0 +1,83 @@
+body{
+    background-position: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+     background: #ccc;
+     margin: 0;    
+}
+.inicio{
+    background-image: url(../imagens/bg-1.jpg);
+    height: 500px;
+    background-position:left auto;
+    background-size: COVER;
+    border-top: 1px solid #ccc;  
+}
+.inicio nav li{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: rgba( 0,0,0,0.3);
+}
+.inicio nav li:hover{
+    transition-duration: 0.6s;
+    background-color: rgba( 0,0,0,0.5);
+}
+.inicio nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: seashell;    
+}
+   
+.textoprincipal{
+    text-align: center;
+    margin-right: 150px;
+    margin-top:150px;
+    font-size: 25px;
+    color:white;  
+}
+.textoprincipal h1{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #333 ;
+}
+.textoprincipal p{
+    display: inline-block;
+    padding: 10px;
+    border-bottom:1px solid white;
+    background-color: rgba( 0,0,0,0.8) ;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.primeira{
+    background-color: white;
+    padding: 29px ;
+    margin-top: 10px ;
+    overflow: auto;
+}
+.cardimagem{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 1%;
+
+}
+.cardimagem img{
+    width: 100%;
+}
+.cardimagem p{
+    text-align: center;
+    color:white;
+    padding: 6px;
+    background: rgba( 0,0,0,0.8);
+}
+.título{
+    border-bottom: solid 4px #ccc;
+}
+.fim{
+    background: #6b6c68;
+    height:80px ;
+    text-align: center;
+    color:white;
+    padding-top: 30px;
+}

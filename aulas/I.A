@@ -1,0 +1,12 @@
+out=[1,2,8]
+wigth=[1,0.1,0]
+def soma(o, w):
+    s=0
+    for i in range(3):
+        s+=o[i]*w[i]
+    return(s)
+s= soma(out,wigth)
+print(s)
+
+
+    
